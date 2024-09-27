@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1em #646cffaa);
+}
+
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./assets/baseaibg.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2rem;
+}
+
+.step-1, .step-2, .step-3 {
+  position: relative;
+  border: 2px solid transparent;
+}
+
+.step-1{
+  position: absolute;
+    top: 20px;
+    right: 65px;
+    margin: 0 20px 0 0;
+}
