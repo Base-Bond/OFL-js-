@@ -6,7 +6,7 @@ import { wagmiConfig}  from './wagmi';
 import { OnchainKitProvider } from "@coinbase/onchainkit";
 
 const quertyClient = new QueryClient();
-// const apiKey = import.meta.env.VITE_ONCHAINKIT_API_KEY;
+const apiKey = import.meta.env.VITE_ONCHAINKIT_API_KEY;
 
 export function OnchainProviders({ children }){
 

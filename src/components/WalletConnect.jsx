@@ -22,9 +22,9 @@ import { color } from '@coinbase/onchainkit/theme';
 
 function WalletConnect() {
   return (
-    <div className="walletconnect">
+    <div>
       <Wallet>
-        <ConnectWallet className='w-2 h-2'>
+        <ConnectWallet text='Coinbase Smart Wallet' className="walletconnect">
           <Avatar/>
           <Name />
         </ConnectWallet>

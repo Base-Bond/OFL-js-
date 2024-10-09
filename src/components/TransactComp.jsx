@@ -11,11 +11,11 @@ import {
 // import { LifeCycleStatus } from '@coinbase/onchainkit/transaction';
 import { Wallet, ConnectWallet } from '@coinbase/onchainkit/wallet';
 import { useAccount } from 'wagmi';
-import { contracts } from '../../contracts'; 
+import { contracts } from '../../contracts';
+import '@coinbase/onchainkit/styles.css'
 
 function TransactComp() {
     const { address } = useAccount();
-    const BASE_SEPOLIA_CHAIN_ID = 84532;
   
     const handleOnStatus = useCallback((status) => {
       console.log('LifecycleStatus', status);
@@ -23,11 +23,11 @@ function TransactComp() {
    
     return address ? (
       <Transaction
-        chainId={BASE_SEPOLIA_CHAIN_ID}
+        chainId={84532}
         contracts={contracts}
         onStatus={handleOnStatus}
       >
-        <TransactionButton />
+        <TransactionButton text='mint' className='h-2 w-2' />
         <TransactionSponsor />
         <TransactionStatus>
           <TransactionStatusLabel />
