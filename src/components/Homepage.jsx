@@ -4,7 +4,7 @@ import WalletConnect from './WalletConnect'
 function Homepage() {
   return (
     <div>
-        <h1>Health Onchain</h1>
+        <h1>MedLedger</h1>
 
         <h3 style={
           {
