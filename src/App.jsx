@@ -14,7 +14,7 @@ const wagmiConfig = createConfig({
   chains: [baseSepolia],
   connectors: [
     coinbaseWallet({
-      appName: 'healthonchain',
+      appName: 'MedLedger',
     }),
   ],
   ssr: true,

@@ -7,7 +7,7 @@ export const wagmiConfig = createConfig({
     multiInjectedProviderDiscovery: false,
     connectors: [
         coinbaseWallet({
-            appName: 'baseapp',
+            appName: 'MedLedger',
             preference: 'smartWalletOnly',
             version: '4',
         }),

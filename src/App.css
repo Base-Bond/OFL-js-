@@ -21,7 +21,7 @@
 body{
   height: 100vh;
   width: 100%;
-  background-image: url(./assets/baseaibg.png);
+  /* background-image: url(./assets/baseaibg.png); */
   background-size: cover;
   background-position: center;
   position: relative;

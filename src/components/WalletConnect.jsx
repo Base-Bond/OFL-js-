@@ -24,7 +24,7 @@ function WalletConnect() {
   return (
     <div>
       <Wallet>
-        <ConnectWallet text='Coinbase Smart Wallet' className="walletconnect">
+        <ConnectWallet text='Coinbase Smart Wallet' className="text-grey-100">
           <Avatar/>
           <Name />
         </ConnectWallet>
